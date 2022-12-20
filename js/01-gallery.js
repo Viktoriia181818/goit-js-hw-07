@@ -1,7 +1,10 @@
-// import { galleryItems } from './gallery-items.js'
+import { galleryItems } from './gallery-items.js'
 
-// console.log(galleryItems)
-// // Change code below this line
+console.log(galleryItems)
+ // Change code below this line
+
+const galleryEl = document.querySelector('.gallery');
+const items = []
 
 // const gallery = document.querySelector('.gallery')
 // const items = []
