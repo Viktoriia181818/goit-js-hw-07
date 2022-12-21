@@ -34,7 +34,7 @@ gallery.addEventListener('click', e => {
 
     const createGalleryMarkup = e.target.getAttribute('data-source');
 
-    const instance = basiclightbox.create(`
+    const instance = basicLightbox.create(`
     <img src="${createGalleryMarkup}" width="800" height="600">
 `);
 
