@@ -1,4 +1,5 @@
-import { galleryItems } from './gallery-items.js'
+import { galleryItems } from './gallery-items.js';
+
 
 console.log(galleryItems)
 // Change code below this line
@@ -31,10 +32,10 @@ gallery.addEventListener('click', e => {
         return
     }
 
-    const selectedImage = e.target.getAttribute('data-source');
+    const createGalleryMarkup = e.target.getAttribute('data-source');
 
-    const instance = basicLightbox.create(`
-    <img src="${selectedImage}" width="800" height="600">
+    const instance = basiclightbox.create(`
+    <img src="${createGalleryMarkup}" width="800" height="600">
 `);
 
     instance.show()
